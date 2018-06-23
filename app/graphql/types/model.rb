@@ -1,5 +1,5 @@
 module Types
-  class Model < GraphQL::Schema::Object
+  class Model < BaseObject
     description 'A Model'
 
     implements GraphQL::Relay::Node.interface
